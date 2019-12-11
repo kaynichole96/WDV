@@ -1,0 +1,14 @@
+<?PHP
+<form id="form1" name="form1" method="post" action="dbConnect.php">
+<label for="Event Name">event</label><textarea name="Event Name" id="Event Name" cols="45" rows="5"></textarea>
+<br class="clear" />
+<label for="Description">EventDescription</label><textarea name="Description" id="Description" cols="45" rows="5"></textarea>
+<br class="clear" />
+<label for="Date">EventDate</label>
+<input type="checkbox" name="Date[]" value="Monday" id="Date_0" />Monday
+<br class="clear" />
+<label for="Time">EventTime</label>
+<input type="checkbox" name="Time[]" value="12PM" id="Time_0" />12PM
+<br class="clear" />
+</form>
+?>

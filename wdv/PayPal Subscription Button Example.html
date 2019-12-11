@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+<style>
+
+* {box-sizing: border-box}
+body {font-family: 'Lobster', cursive; Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 325px 325px;
+  background-color:white;
+  padding: 5px;
+}
+.grid-item {
+  background-color:white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 1`1px;
+  text-align: center;
+}
+</style>
+</head>
+ <body>
+
+<h1>PayPal Subscription Button Example</h1>
+
+ <div class="grid-container">
+
+<div class="grid-item">
+<img src="lava.jpg" alt="Lava" width="400" height="250">
+<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="77ZL395SGKKP8">
+<input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form></div>
+
+<div class="grid-item">
+<img src="lava2.jpg" alt="Lava2" width="400" height="250">
+<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="EA37L6BLQ7RQ8">
+<input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form></div>
+
+</div>
+</body>
+</html>

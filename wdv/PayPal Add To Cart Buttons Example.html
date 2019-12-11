@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<style type="text/css">
+   body { background: #708090 !important; }
+
+<style>
+
+* {box-sizing: border-box}
+body {font-family: 'Lobster', cursive; Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+
+}
+.nav a{
+Color: white !important;
+font-size: 1.8em !important;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:white;
+  padding: 3px;
+}
+.grid-item {
+  background-color:white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+</style>
+</head>
+ <body>
+
+   <nav class="navbar navbar-inverse">
+   <div class="container-fluid">
+   <!-- Brand and toggle get grouped for better mobile display -->
+   <div class="navbar-header">
+   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+   <span class="sr-only">Toggle navigation</span>
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+   </button>
+   </div>
+
+   <!-- Collect the nav links, forms, and other content for toggling -->
+   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+   <center><ul class="nav navbar-nav">
+   <li><a href="http://katelynneuhaus.info/321/homepage.html">Home</a></li>
+   <li><a href="http://katelynneuhaus.info/321/Aboutpage.html">About Me</a></li>
+   <li><a href="http://katelynneuhaus.info/321/Client%20Proofs.html">Client Proofs</a></li>
+   <li><a href="http://katelynneuhaus.info/321/contact.html">Contact Page</a></li>
+   </ul>
+   </div><!-- /.navbar-collapse -->
+   </div><!-- /.container-fluid -->
+   </nav>
+<center><font color="white"><h1>Add To Cart Button</h1></font>
+
+ <div class="grid-container">
+
+<div class="grid-item">
+
+<img src="scrunchies.png" alt="scrunchies" width="250" height="200">
+<form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="NUMWW5TZPPLMW">
+<input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form></div>
+
+  <div class="grid-item">
+
+<img src="friends.png" alt="friends" width="200" height="200">
+<form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="YWDSKWP9843QC">
+<center><table>
+<tr><td><input type="hidden" name="on0" value="size">size</td></tr><tr><td><select name="os0">
+	<option value="Small">Small $25.00 USD</option>
+	<option value="Medium">Medium $30.00 USD</option>
+	<option value="Large">Large $35.00 USD</option>
+</select> </td></tr>
+</table></center>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form></div>
+
+   <div class="grid-item">
+
+  <img src="pink.png" alt="pink" width="200" height="200">
+  <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+   <input type="hidden" name="cmd" value="_s-xclick">
+   <input type="hidden" name="hosted_button_id" value="H7BCP2Z6EUQNC">
+   <center><table>
+   <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+   	<option value="Small">Small </option>
+   	<option value="Medium">Medium </option>
+   	<option value="Large">Large </option>
+   </select> </td></tr>
+   </table></center>
+   <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+   <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+ </form></div>
+
+    <div class="grid-item">
+
+<img src="white.png" alt="white" width="200" height="200">
+<form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="H7BCP2Z6EUQNC">
+<center><table>
+<tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+ <option value="Small">Small </option>
+ <option value="Medium">Medium </option>
+ <option value="Large">Large </option>
+</select> </td></tr>
+</table></center>
+<input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form></div>
+
+   <div class="grid-item">
+
+   <img src="rainbow.png" alt="rainbow" width="200" height="200">
+   <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+ <input type="hidden" name="cmd" value="_s-xclick">
+ <input type="hidden" name="hosted_button_id" value="UMEAEK8K5WJXU">
+ <center><table>
+ <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+ 	<option value="Small">Small </option>
+ 	<option value="Medium">Medium </option>
+ 	<option value="Large">Large </option>
+ </select> </td></tr>
+ <tr><td><input type="hidden" name="on1" value="Add Monogram">Add Monogram</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+</table></center>
+ <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+ <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form></div>
+
+    <div class="grid-item">
+
+   <img src="yellow.png" alt="yellow" width="200" height="200">
+   <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+   <input type="hidden" name="cmd" value="_s-xclick">
+   <input type="hidden" name="hosted_button_id" value="H7BCP2Z6EUQNC">
+   <center><table>
+   <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+   	<option value="Small">Small </option>
+   	<option value="Medium">Medium </option>
+   	<option value="Large">Large </option>
+    </select> </td></tr>
+  </table></center>
+   <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+   <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+   </form></div>
+
+
+    <div class="footer">
+    </div>
+  </div>
+
+  </body>
+  </html>
